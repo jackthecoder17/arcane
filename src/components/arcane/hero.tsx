@@ -113,7 +113,7 @@ function SideLabel({ side, children }: { side: "left" | "right"; children: React
       animate={{ opacity: 1 }}
       transition={{ delay: 2, duration: 1.2 }}
       className={cn(
-        "pointer-events-none absolute top-1/2 z-10 hidden items-center gap-4 text-[10px] tracking-[0.5em] text-foreground/45 uppercase lg:flex",
+        "pointer-events-none absolute top-1/2 z-10 hidden items-center gap-4 text-[10px] tracking-[0.5em] text-foreground/45 uppercase [@media(min-height:820px)]:lg:flex",
         side === "left"
           ? "left-6 origin-left -translate-y-1/2 -rotate-90 translate-x-3"
           : "right-6 origin-right -translate-y-1/2 rotate-90 -translate-x-3"
