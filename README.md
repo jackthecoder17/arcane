@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arcane — Landing Page
 
-## Getting Started
+A cinematic, fully responsive fan landing page for **Arcane**, the animated series set in Piltover and Zaun.
 
-First, run the development server:
+## Highlights
+
+- **Real-time 3D hero** — a shader-driven hextech crystal with GPU-animated particles (React Three Fiber), adaptive resolution and off-screen pausing for smooth performance.
+- **Motion throughout** — staggered title reveal, scroll-linked parallax, a pinned horizontal story timeline, word-by-word text reveal, 3D tilt cards and animated counters (Framer Motion).
+- **Interactive sections** — Piltover vs Zaun city panels, filterable character roster with bio dialogs, trailer dialog and a "choose your side" sign-up.
+- **Responsive & accessible** — mobile-first layouts, slide-out navigation, `prefers-reduced-motion` support.
+
+## Tech stack
+
+Next.js (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui · Framer Motion · Three.js / React Three Fiber / drei
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Credits
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Unofficial fan project, not affiliated with Riot Games, Fortiche or Netflix.
+Arcane, League of Legends and all character art are © Riot Games, used under Riot's
+[Legal Jibber Jabber](https://www.riotgames.com/en/legal) fan-content policy. Animation by Fortiche.
